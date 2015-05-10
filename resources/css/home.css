@@ -1,0 +1,41 @@
+@import url('nav.css');
+
+body {
+    color: white;
+    font-family: Open Sans;
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+div {
+    border: 1px solid black;
+    height: 50%;
+    position: fixed;
+    width: 50%;
+}
+
+#about {
+    background: red;
+    left: 50%;
+    top: 0;
+}
+
+#history {
+    background: green;
+    right: 50%;
+    top: 0;
+}
+
+#animals {
+    background: blue;
+    right: 50%;
+    top: 50%;
+}
+
+#market {
+    background: brown;
+    left: 50%;
+    top: 50%;
+}
+

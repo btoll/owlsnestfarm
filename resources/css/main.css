@@ -1,0 +1,49 @@
+@import url('nav.css');
+
+body {
+    color: white;
+    font-family: Open Sans;
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+#wrapper {
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -260px;
+    /*padding-top: 38px;*/
+}
+
+#main {
+    background: #4D1A1A;
+    flex: 2 1 300px;
+    padding: 20px;
+
+    -webkit-columns: 3 200px;
+    -moz-columns: 3 200px;
+    columns: 3 200px;
+
+    -webkit-column-gap: 4em;
+    -moz-column-gap: 4em;
+    column-gap: 4em;
+
+    -webkit-column-rule: 1px dotted #ddd;
+    -moz-column-rule: 1px dotted #ddd;
+    column-rule: 1px dotted #ddd;
+}
+
+#sidebar {
+  background: #800909;
+  flex: 1 1 150px;
+  padding: 24px;
+}
+
+#footer {
+    align-self: flex-end;
+    background: #1A2B2B;
+    padding: 24px;
+    width: 100%;
+}
+
