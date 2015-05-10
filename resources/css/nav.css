@@ -1,44 +1,46 @@
 #nav {
-    /* center horizontally */
-    left: 0;
-    right: 0;
-    margin: auto;
+    background: black;
+    border: 1px solid gray;
+    opacity: 0.8;
     position: fixed;
-    width: 500px;
+    width: 100%;
 }
 
-#home #nav {
-    /* center both horizontally and vertically */
-    left: 50%;
-    top: 50%;
-    margin-left: -110px;
-    margin-top: -123px;
-    width: 200px;
-
-    background: #1A2B2B;
-    height: 235px;
-    opacity: 1;
-    padding: 10px;
-    z-index: 9999;
+#nav ul {
+    /* Center horizontally. */
+    left: 0;
+    right: 0;
+    margin: 10px auto;
+    width: 500px;
 }
 
 #nav li {
     display: inline;
-}
-
-#home #nav li {
-    display: block;
-    list-style-type: none;
+    margin: 0 10px;
 }
 
 #nav li a {
-    color: black;
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+    border-radius: 4px;
+    color: white;
     display: inline-block;
-    padding: 20px;
+    font-size: 1em;
+    padding: 10px;
     text-decoration: none;
 }
 
-#home #nav li a {
-    color: white;
+#nav li a:hover {
+    background: #5cb85c;
 }
+
+/* Highlight the link of the current page. */
+/*
+#about a[href*="about"],
+#animals a[href*="animals"],
+#history a[href*="history"],
+#market a[href*="market"] {
+    color: black;
+}
+*/
 

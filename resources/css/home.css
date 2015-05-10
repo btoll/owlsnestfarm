@@ -1,11 +1,44 @@
-@import url('nav.css');
-
 body {
-    color: white;
     font-family: Open Sans;
     height: 100%;
     margin: 0;
     padding: 0
+}
+
+#nav {
+    /* Center both horizontally and vertically. */
+    left: 50%;
+    top: 50%;
+    margin-left: -110px;
+    margin-top: -123px;
+    width: 200px;
+
+    background: #1A2B2B;
+    border: 1px solid gray;
+    border-radius: 16px;
+    height: 235px;
+    padding: 10px;
+    position: fixed;
+    z-index: 9999;
+}
+
+#nav li {
+    list-style-type: none;
+    margin: 0;
+}
+
+#nav li a {
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    font-size: 1em;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#nav li:hover {
+    background: #337ab7;
+    border-radius: 8px;
 }
 
 div {
