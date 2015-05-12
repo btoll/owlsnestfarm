@@ -41,7 +41,7 @@ nav li:hover {
     border-radius: 8px;
 }
 
-div {
+figure {
     border: 1px solid black;
     height: 50%;
     margin: 0;
@@ -63,10 +63,14 @@ div {
 }
 
 #animals {
-    background: url("../images/chicks.jpg") no-repeat;
-    background-size: contain;
     right: 50%;
     top: 50%;
+}
+
+#animals img {
+    max-height: 100%;
+    max-width: 100%;
+    width: 720px;
 }
 
 #market {
