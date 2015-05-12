@@ -1,4 +1,4 @@
-#nav {
+nav {
     background: black;
     border: 1px solid gray;
     opacity: 0.8;
@@ -6,7 +6,7 @@
     width: 100%;
 }
 
-#nav ul {
+nav ul {
     /* Center horizontally. */
     left: 0;
     right: 0;
@@ -14,12 +14,12 @@
     width: 500px;
 }
 
-#nav li {
+nav li {
     display: inline;
     margin: 0 10px;
 }
 
-#nav li a {
+nav li a {
     background: #5cb85c;
     border: 1px solid #4cae4c;
     border-radius: 4px;
@@ -30,7 +30,7 @@
     text-decoration: none;
 }
 
-#nav li a:hover {
+nav li a:hover {
     background: #5cb85c;
 }
 
