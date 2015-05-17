@@ -53,6 +53,11 @@ nav li {
     margin: 0;
 }
 
+nav li:hover {
+    background: #337ab7;
+    border-radius: 8px;
+}
+
 nav li a {
     border-radius: 4px;
     color: white;
