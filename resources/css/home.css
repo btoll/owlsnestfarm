@@ -53,22 +53,21 @@ nav ul {
 
 nav li {
     list-style-type: none;
-    margin: 0;
-}
-
-nav li:hover {
-    background: #337ab7;
-    border-radius: 8px;
+    margin-right: 10px;
 }
 
 nav li a {
-    border-radius: 4px;
     color: white;
     display: inline-block;
     font-size: 1em;
-    padding: 20px;
+    padding: 20px 0 20px 10px;
     text-decoration: none;
     width: 100%;
+}
+
+nav li a:hover {
+    background: #337ab7;
+    border-radius: 8px;
 }
 
 figure {
