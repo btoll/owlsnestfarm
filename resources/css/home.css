@@ -34,12 +34,12 @@ nav ul {
     background: #1A2B2B;
     border: 1px solid gray;
     border-radius: 16px;
-    height: 235px;
+    height: 290px;
 
     /* Center both horizontally and vertically. */
     top: 50%;
     left: 50%;
-    margin-top: -123px;
+    margin-top: -155px;
     margin-left: -110px;
 
     padding: 10px;
