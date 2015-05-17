@@ -6,9 +6,11 @@ body {
 
 header {
     background: #1A2B2B;
-    border: 1px solid gray;
+    border: 2px solid gray;
     border-radius: 16px;
+    box-shadow: inset 0 0 3em gray;
     margin: .5% auto;
+    padding: 5px 0;
     position: relative;
     z-index: 1;
     width: 50%;
@@ -32,8 +34,9 @@ header p + p {
 
 nav ul {
     background: #1A2B2B;
-    border: 1px solid gray;
+    border: 4px solid gray;
     border-radius: 16px;
+    box-shadow: inset 0 0 3em gray;
     height: 290px;
 
     /* Center both horizontally and vertically. */
