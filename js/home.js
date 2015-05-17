@@ -1,5 +1,5 @@
 JSLITE.ready(function () {
-    var links = JSLITE.dom.gets('a'),
+    var links = JSLITE.Element.gets('a'),
         title;
 
     function removeTitle() {
