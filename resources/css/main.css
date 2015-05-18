@@ -1,33 +1,47 @@
 @import url('nav.css');
 
 html, body, section {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
     height: 100%;
-    width: 100%;
     margin: 0;
-    overflow: hidden;
-    padding: 0
+    padding: 0;
+    width: 100%;
 }
 
 body {
     color: white;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     font-family: Open Sans;
 }
 
 section {
-    display: -ms-flex;
-    display: -webkit-flex;
-    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
 
 aside {
     background: skyblue;
-    flex: .5;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     padding: 24px;
 }
 
 article {
     background: tomato;
-    flex: 2;
+    -webkit-flex: 4;
+    -moz-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
     overflow: auto;
     padding: 20px;
 

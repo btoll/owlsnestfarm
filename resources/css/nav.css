@@ -6,14 +6,22 @@ nav {
 }
 
 ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
     display: flex;
-    justify-content: center;
-    list-style: none;
 
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
     /* IE 10 */
     flex-pack: center;
     /* older browsers */
     box-pack: center;
+
+    list-style: none;
 }
 
 a {
