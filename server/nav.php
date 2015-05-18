@@ -1,5 +1,5 @@
 <?php
-$nav = <<<NAV
+echo <<<NAV
 <nav>
     <ul>
         <li><a href="/owlsnestfarm/">Home</a></li>
@@ -10,7 +10,5 @@ $nav = <<<NAV
     </ul>
 </nav>
 NAV;
-
-echo $nav;
 ?>
 

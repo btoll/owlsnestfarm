@@ -1,26 +1,37 @@
 @import url('nav.css');
 
-body {
-    color: white;
-    font-family: Open Sans;
+html, body, section {
     height: 100%;
+    width: 100%;
     margin: 0;
+    overflow: hidden;
     padding: 0
 }
 
-#wrapper {
-    align-content: flex-start;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -260px;
-    /*padding-top: 38px;*/
+body {
+    color: white;
+    font-family: Open Sans;
 }
 
-#main {
-    background: #4D1A1A;
-    flex: 2 1 300px;
+section {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+aside {
+    background: skyblue;
+    flex: .5;
+    padding: 24px;
+}
+
+article {
+    background: tomato;
+    flex: 2;
+    overflow: auto;
     padding: 20px;
 
+    /*
     -webkit-columns: 3 200px;
     -moz-columns: 3 200px;
     columns: 3 200px;
@@ -32,18 +43,15 @@ body {
     -webkit-column-rule: 1px dotted #ddd;
     -moz-column-rule: 1px dotted #ddd;
     column-rule: 1px dotted #ddd;
+    */
 }
 
-#sidebar {
-  background: #800909;
-  flex: 1 1 150px;
-  padding: 24px;
-}
-
-#footer {
-    align-self: flex-end;
-    background: #1A2B2B;
+footer {
+    background: black;
+    border: 1px solid gray;
+    box-shadow: inset 0 0 2em gray;
+    box-sizing: border-box;
+    opacity: 0.8;
     padding: 24px;
-    width: 100%;
 }
 

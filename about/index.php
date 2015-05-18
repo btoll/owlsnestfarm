@@ -7,8 +7,7 @@ include "../server/head.php";
 </head>
 
 <body id="about">
-<?php
-include "../server/nav.php";
-?>
+<?php include "../server/viewport.php"; ?>
 </body>
 </html>
+

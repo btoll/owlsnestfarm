@@ -7,9 +7,13 @@ nav {
 
 ul {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     list-style: none;
+
+    /* IE 10 */
+    flex-pack: center;
+    /* older browsers */
+    box-pack: center;
 }
 
 a {
