@@ -18,6 +18,7 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     font-family: Open Sans;
+    overflow: hidden;
 }
 
 section {
@@ -25,6 +26,8 @@ section {
     -moz-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+    margin: 10px 0 0;
+    padding: 0;
 }
 
 aside {
@@ -33,7 +36,7 @@ aside {
     -moz-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    padding: 24px;
+    overflow: auto;
 }
 
 article {
@@ -43,7 +46,7 @@ article {
     -ms-flex: 4;
     flex: 4;
     overflow: auto;
-    padding: 20px;
+    padding: 0 20px;
 
     /*
     -webkit-columns: 3 200px;
