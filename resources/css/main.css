@@ -22,6 +22,7 @@ body {
 }
 
 section {
+    color: black;
     -webkit-flex-direction: row;
     -moz-flex-direction: row;
     -ms-flex-direction: row;
@@ -49,7 +50,6 @@ article {
     overflow: auto;
     padding: 0 20px;
 
-    /*
     -webkit-columns: 3 200px;
     -moz-columns: 3 200px;
     columns: 3 200px;
@@ -61,7 +61,6 @@ article {
     -webkit-column-rule: 1px dotted #ddd;
     -moz-column-rule: 1px dotted #ddd;
     column-rule: 1px dotted #ddd;
-    */
 }
 
 footer {
