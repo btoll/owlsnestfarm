@@ -3,8 +3,23 @@
 <head>
 <title>The Owl's Nest Farm</title>
 <link rel="stylesheet" type="text/css" href="./resources/css/home.css" />
-<script src="./js/jslite.js"></script>
+<script src="./build/jslite.js"></script>
 <script src="./js/main.js"></script>
+<script>
+JSLITE.ready(function () {
+    // TODO: Add ability to add a single listener in the framework.
+    var mask = new JSLITE.ux.Mask(document.body, {
+        attr: {
+            id: 'readyMask'
+        }
+    });
+
+    mask.show();
+}, function () {
+    this.JSLITE.Element.get('readyMask').hide();
+});
+</script>
+
 </head>
 
 <body id="home">
