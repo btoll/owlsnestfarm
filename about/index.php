@@ -36,10 +36,6 @@ include "../server/head.php";
     <footer>
         <span>&copy; 2015</span>
     </footer>
-
-    <div id="test" class="hide">
-        <p>this is a test</p>
-    </div>
 </body>
 </html>
 

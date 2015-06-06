@@ -1,7 +1,6 @@
 @import url("nav.css");
 
 html, body, section {
-    font-family: "Trebuchet MS";
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -10,24 +9,19 @@ html, body, section {
     margin: 0;
     padding: 0;
     width: 100%;
-}
 
-body {
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    font-family: Open Sans;
-    overflow: hidden;
 }
 
 section {
-    color: black;
     -webkit-flex-direction: row;
     -moz-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    margin: 10px 0 0;
+    margin: 57px 0 0;
     padding: 0;
 }
 
