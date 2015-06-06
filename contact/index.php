@@ -16,6 +16,8 @@ include "../server/head.php";
         </aside>
 
         <article>
+        <h3>Mailing address:</h3>
+        <p>113 Old Colony Road<br>Princeton, MA 01541 USA</p>
         </article>
     </section>
 

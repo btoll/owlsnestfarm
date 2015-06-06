@@ -1,4 +1,5 @@
 body {
+    /*background: #eee url("../images/main_farm_larger.jpg") 50% 15% no-repeat;*/
     font-family: Open Sans;
     margin: 0;
     padding: 0
@@ -37,7 +38,7 @@ nav ul {
     border: 4px solid gray;
     border-radius: 16px;
     box-shadow: inset 0 0 3em gray;
-    height: 290px;
+    /*height: 290px;*/
     list-style: none;
     padding: 10px;
     position: fixed;

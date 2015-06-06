@@ -16,6 +16,6 @@ JSLITE.ready(function () {
     links.on('mouseover', removeTitle);
     links.on('mouseout', resetTitle);
 
-    JSLITE.ux.Tooltip.init();
+    //JSLITE.ux.Tooltip.init();
 });
 
