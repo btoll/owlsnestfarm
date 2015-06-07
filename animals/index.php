@@ -1,26 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
 <?php
 include "../server/head.php";
 ?>
-</head>
 
 <body id="animals">
     <header>
-    <?php include "../server/nav.php"; ?>
+        <?php include "../server/nav.php"; ?>
     </header>
 
-    <section>
-        <aside>
-        </aside>
+    <main>
+        <?php include "../server/aside.php"; ?>
 
         <article>
         </article>
-    </section>
 
-    <footer>
-        <span>&copy; 2015</span>
-    </footer>
+        <section>
+            <figure>
+                <img src="../resources/images/three_amigos.jpg">
+            </figure>
+        </section>
+    </main>
+
+    <?php include "../server/footer.php"; ?>
 </body>
 </html>

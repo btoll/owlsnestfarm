@@ -1,6 +1,18 @@
-@media (min-width: 568px) {
+@media (min-width: 200px) {
     nav li {
         float: none !important;
+    }
+
+    nav li a {
+        padding: 10px !important;
+    }
+
+    main {
+        margin-top: 200px !important;
+    }
+
+    aside, section {
+        display: none;
     }
 }
 
@@ -12,25 +24,29 @@
     nav li {
         float: left !important;
     }
+
+    nav li a {
+        padding: 20px 10px !important;
+    }
+
+    main {
+        margin-top: 57px !important;
+    }
+
+    aside, section {
+        display: block;
+    }
 }
 
 @media (min-width: 992px) {
     .nav-container {
         width: 970px;
     }
-
-    nav li {
-        float: left !important;
-    }
 }
 
 @media (min-width: 1200px) {
     .nav-container {
         width: 1170px;
-    }
-
-    nav li {
-        float: left !important;
     }
 }
 
@@ -69,12 +85,10 @@ nav li a {
     display: block;
     font-size: 1em;
     padding: 20px 10px;
-    text-decoration: none;
 }
 
 nav li a:hover {
     background: #265a88;
-    text-decoration: none;
 }
 
 /* Highlight the link of the current page. */
@@ -85,4 +99,10 @@ nav li a:hover {
 #market a[href*="market"] {
     background: #265a88;
 }
+
+/*
+nav li a[title="Home"] {
+    color: #000;
+}
+*/
 
