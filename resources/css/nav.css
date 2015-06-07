@@ -1,55 +1,3 @@
-@media (min-width: 200px) {
-    nav li {
-        float: none !important;
-    }
-
-    nav li a {
-        padding: 10px !important;
-    }
-
-    main {
-        margin-top: 200px !important;
-    }
-
-    aside, section {
-        display: none;
-    }
-}
-
-@media (min-width: 768px) {
-    .nav-container {
-        width: 750px;
-    }
-
-    nav li {
-        float: left !important;
-    }
-
-    nav li a {
-        padding: 20px 10px !important;
-    }
-
-    main {
-        margin-top: 57px !important;
-    }
-
-    aside, section {
-        display: block;
-    }
-}
-
-@media (min-width: 992px) {
-    .nav-container {
-        width: 970px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .nav-container {
-        width: 1170px;
-    }
-}
-
 nav {
     background: #337ab7;
     border: 1px solid #eee;
@@ -85,6 +33,7 @@ nav li a {
     display: block;
     font-size: 1em;
     padding: 20px 10px;
+    text-decoration: none;
 }
 
 nav li a:hover {

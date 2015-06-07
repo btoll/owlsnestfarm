@@ -1,5 +1,64 @@
 @import url("nav.css");
 
+@media (min-width: 200px) {
+    nav li {
+        float: none !important;
+    }
+
+    nav li a {
+        padding: 10px !important;
+    }
+
+    main {
+        margin-top: 200px !important;
+    }
+
+    aside, section {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-container {
+        width: 750px;
+    }
+
+    nav li {
+        float: left !important;
+    }
+
+    nav li a {
+        padding: 20px 10px !important;
+    }
+
+    main {
+        margin-top: 57px !important;
+    }
+
+    aside {
+        display: -webkit-flex !important;
+        display: -moz-flex !important;
+        display: -ms-flex !important;
+        display: flex !important;
+    }
+
+    section {
+        display: block !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav-container {
+        width: 1170px;
+    }
+}
+
 html, body, main {
     display: -webkit-flex;
     display: -moz-flex;
@@ -18,8 +77,7 @@ html, body, main {
 }
 
 a {
-    color: #000;
-    text-decoration: none;
+    color: olive;
 }
 
 main {
@@ -70,10 +128,6 @@ figure + address {
     background: teal;
 }
 
-address a {
-    text-decoration: underline;
-}
-
 address p {
     margin: 5px 0;
 }
@@ -107,6 +161,7 @@ section {
     -moz-flex: 2;
     -ms-flex: 2;
     flex: 2;
+    overflow: auto;
     padding: 10px;
     text-align: center;
 }
