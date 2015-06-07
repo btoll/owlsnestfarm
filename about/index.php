@@ -24,7 +24,9 @@ include "../server/head.php";
         </article>
 
         <section>
-            <p>under construction</p>
+            <figure>
+                <img src="../resources/images/three_amigos.jpg">
+            </figure>
         </section>
     </main>
 
