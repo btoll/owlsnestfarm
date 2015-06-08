@@ -41,11 +41,11 @@ nav li a:hover {
 }
 
 /* Highlight the link of the current page. */
-#about a[href*="about"],
-#animals a[href*="animals"],
-#contact a[href*="contact"],
-#history a[href*="history"],
-#market a[href*="market"] {
+nav li #about a[href*="about"],
+nav li #animals a[href*="animals"],
+nav li #contact a[href*="contact"],
+nav li #history a[href*="history"],
+nav li #market a[href*="market"] {
     background: #265a88;
 }
 
