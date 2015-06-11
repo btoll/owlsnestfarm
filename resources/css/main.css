@@ -47,7 +47,10 @@
     }
 
     section {
-        display: block !important;
+        display: -webkit-flex !important;
+        display: -moz-flex !important;
+        display: -ms-flex !important;
+        display: flex !important;
     }
 }
 
@@ -181,6 +184,18 @@ section {
     overflow: auto;
     padding: 10px;
     text-align: center;
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    justify-content: center;
 }
 
 footer {
@@ -196,5 +211,10 @@ footer {
 figure {
     margin: 0;
     padding: 0;
+}
+
+section figure img {
+    border: 4px solid #606c88;
+    border-radius: 16px;
 }
 
