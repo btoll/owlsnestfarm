@@ -26,7 +26,7 @@ include "../server/head.php";
 
         <section>
             <figure>
-                <img src="../resources/images/chicks.jpg">
+                <img src="../resources/images/chickens_in_nesting_box.jpg">
             </figure>
         </section>
     </main>

@@ -40,6 +40,11 @@
 body {
     /*
     background: #337ab7;
+    background: url("../../resources/images/porch_owl.jpg") 50% 0 no-repeat;
+    background: #ccc url("../../resources/images/rocks_in_paddock.jpg") 50% 0 no-repeat;
+    background: url("../../resources/images/welcome_owl.jpg") 50% 0 no-repeat;
+    background-image: url("../../resources/images/welcome_owl.jpg");
+    background-size: cover;
     */
     background-image: url("../../resources/images/porch_owl.jpg");
     font-family: Open Sans;
