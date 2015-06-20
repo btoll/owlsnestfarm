@@ -11,7 +11,7 @@ include "../server/head.php";
         <?php include "../server/aside.php"; ?>
 
         <article>
-            <p>Coming soon<p>
+            <h3>Coming soon</h3>
         </article>
 
         <section>

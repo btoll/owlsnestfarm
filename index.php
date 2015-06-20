@@ -3,25 +3,12 @@
 <head>
 <title>The Owl's Nest Farm</title>
 <?php
-$foo = include 'server/sniff.php';
+$device = include 'server/sniff.php';
+$device = ($device === 'mobile') ? 'mobile' : 'desktop';
+
+echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"./resources/css/$device/home.css\" />";
 ?>
-<link rel="stylesheet" type="text/css" href="./resources/css/home.css" />
 <script src="./build/jslite.js"></script>
-<!--
-<script type="text/javascript" src="/jsLite/src/JSLITE.prototype.js"></script>
-<script type="text/javascript" src="/jsLite/src/JSLITE.js"></script>
-<script type="text/javascript" src="/jsLite/src/JSLITE.Element.js"></script>
-<script type="text/javascript" src="/jsLite/src/JSLITE.Composite.js"></script>
-<script type="text/javascript" src="/jsLite/src/JSLITE.Rules.js"></script>
-<script type="text/javascript" src="/jsLite/src/JSLITE.Observer.js"></script>
-<script type="text/javascript" src="/jsLite/src/JSLITE.Template.js"></script>
-<script type="text/javascript" src="/jsLite/src/JSLITE.util.js"></script>
-<script type="text/javascript" src="/jsLite/src/JSLITE.dom.js"></script>
-<script type="text/javascript" src="/jsLite/src/JSLITE.domQuery.js"></script>
-<script type="text/javascript" src="/jsLite/src/JSLITE.log.js"></script>
-<script type="text/javascript" src="/jsLite/src/JSLITE.ajax.js"></script>
-<script type="text/javascript" src="/jsLite/src/JSLITE.ux.js"></script>
--->
 <script src="./js/main.js"></script>
 </head>
 

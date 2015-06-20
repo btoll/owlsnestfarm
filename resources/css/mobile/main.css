@@ -1,0 +1,12 @@
+html, body, main {
+    display: block;
+}
+
+main {
+    margin-top: 8em;
+}
+
+aside {
+    display: none;
+}
+
