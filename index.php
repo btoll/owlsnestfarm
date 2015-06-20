@@ -2,6 +2,9 @@
 <html>
 <head>
 <title>The Owl's Nest Farm</title>
+<?php
+$foo = include 'server/sniff.php';
+?>
 <link rel="stylesheet" type="text/css" href="./resources/css/home.css" />
 <script src="./build/jslite.js"></script>
 <!--

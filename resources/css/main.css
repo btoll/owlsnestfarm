@@ -1,5 +1,4 @@
-@import url("nav.css");
-
+/*
 @media (min-width: 200px) {
     nav li {
         float: none !important;
@@ -69,6 +68,7 @@
         width: 1170px;
     }
 }
+*/
 
 html, body, main {
     display: -webkit-flex;
