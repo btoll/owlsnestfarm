@@ -16,7 +16,7 @@ include "../server/head.php";
 
         <section>
             <figure>
-                <img src="../resources/images/treat_basket_small.jpg">
+                <img src="../resources/images/kitchen.jpg">
             </figure>
         </section>
     </main>
