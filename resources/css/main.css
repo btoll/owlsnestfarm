@@ -175,6 +175,11 @@ article {
     column-rule: 1px dotted #ddd;
 }
 
+article p:nth-child(2)::first-letter {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 section {
     background: #eee;
     -webkit-flex: 2;

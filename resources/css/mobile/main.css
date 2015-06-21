@@ -10,3 +10,11 @@ aside {
     display: none;
 }
 
+article h3 {
+    font-size: 3.5em;
+}
+
+article p {
+    font-size: 3em;
+}
+
