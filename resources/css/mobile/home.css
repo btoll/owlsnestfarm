@@ -23,7 +23,7 @@ nav ul {
     z-index: 1;
 
     /* Center both horizontally and vertically. */
-    top: 50%;
+    top: 15%;
     left: 50%;
     margin-top: -155px;
     margin-left: -110px;
@@ -45,5 +45,9 @@ nav li a {
 nav li a:hover {
     background: #337ab7;
     border-radius: 8px;
+}
+
+figure {
+    display: none;
 }
 

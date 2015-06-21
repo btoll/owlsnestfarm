@@ -28,3 +28,4 @@ include "../server/head.php";
     <?php include "../server/footer.php"; ?>
 </body>
 </html>
+

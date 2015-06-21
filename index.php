@@ -28,7 +28,6 @@ echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"./resources/css/$device/
         </ul>
     </nav>
 
-    <!--
     <figure id="about">
         <img src="./resources/images/garden_boxes.jpg" alt="History">
     </figure>
@@ -44,7 +43,6 @@ echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"./resources/css/$device/
     <figure id="market">
         <img src="./resources/images/pete_with_log.jpg" alt="About">
     </figure>
-    -->
 </body>
 </html>
 
