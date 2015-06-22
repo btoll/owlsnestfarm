@@ -7,13 +7,7 @@ echo <<<HEAD
 <html>
 <head>
     <title>The Owl's Nest Farm</title>
-    <!--
-    <link rel="stylesheet" type="text/css" href="/owlsnestfarm/resources/css/media/$device.css" />
-    -->
-    <link rel="stylesheet" type="text/css" href="/owlsnestfarm/resources/css/main.css" />
-    <link rel="stylesheet" type="text/css" href="/owlsnestfarm/resources/css/$device/nav.css" />
-    <link rel="stylesheet" type="text/css" href="/owlsnestfarm/resources/css/$device/media.css" />
-    <link rel="stylesheet" type="text/css" href="/owlsnestfarm/resources/css/$device/main.css" />
+    <link rel="stylesheet" type="text/css" href="/owlsnestfarm/build/$device.css" />
 
     <script src="/owlsnestfarm/build/jslite.js"></script>
     <script src="/owlsnestfarm/js/main.js"></script>
