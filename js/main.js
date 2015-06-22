@@ -1,5 +1,5 @@
-JSLITE.ready(function () {
-    var links = JSLITE.Element.gets('a'),
+Pete.ready(function () {
+    var links = Pete.Element.gets('a'),
         title;
 
     function removeTitle() {
@@ -16,6 +16,6 @@ JSLITE.ready(function () {
     links.on('mouseover', removeTitle);
     links.on('mouseout', resetTitle);
 
-    //JSLITE.ux.Tooltip.init();
+    //Pete.ux.Tooltip.init();
 });
 

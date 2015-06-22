@@ -17,7 +17,17 @@
         ]
     }],
 
-    "js": [
-    ]
+    "js": [{
+        "src": "/usr/local/www/PeteJS/src",
+        "output": "build/pete.js",
+        "version": "1.0.0",
+        "dependencies": [
+            "Pete.prototype.js",
+            "Pete.js",
+            "Pete.Element.js",
+            "Pete.Composite.js",
+            "Pete.Observer.js"
+        ]
+    }]
 }
 
