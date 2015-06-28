@@ -17,7 +17,11 @@ NAV;
 $mobile = <<<NAV
     <nav>
         <div>
-            <p>The Owl's Nest Farm</p>
+            <div>
+                <a href="https://www.facebook.com/Theowlsnestfarm"><img alt="The Owl's Nest Farm on Facebook" src="/owlsnestfarm/resources/images/facebook_smallest.png"></a>
+                <p>The Owl's Nest Farm</p>
+            </div>
+
             <a href="#"><img alt="Owl" src="/owlsnestfarm/resources/images/owl_menu_icon_120x90.png"></a>
         </div>
 
@@ -36,7 +40,7 @@ $mobile = <<<NAV
 <script>
 var list = document.getElementsByTagName('ul')[0],
     parent = list.parentNode,
-    link = document.getElementsByTagName('a')[0],
+    link = document.getElementsByTagName('a')[1],
     div = document.createElement('div'),
     style = div.style,
     body = document.body,
