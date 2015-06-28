@@ -28,6 +28,10 @@
             "Pete.Composite.js",
             "Pete.Observer.js"
         ]
+    }, {
+        "src": "js",
+        "output": "build/main.js",
+        "version": "1.0.0"
     }]
 }
 

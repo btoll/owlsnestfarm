@@ -9,7 +9,7 @@ $device = ($device === 'mobile') ? 'mobile' : 'desktop';
 echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"./resources/css/$device/home.css\" />";
 ?>
 <script src="./build/pete.js"></script>
-<script src="./js/main.js"></script>
+<script src="./build/main.js"></script>
 </head>
 
 <body id="home">

@@ -10,7 +10,7 @@ echo <<<HEAD
     <link rel="stylesheet" type="text/css" href="/owlsnestfarm/build/$device.css" />
 
     <script src="/owlsnestfarm/build/pete.js"></script>
-    <script src="/owlsnestfarm/js/main.js"></script>
+    <script src="/owlsnestfarm/build/main.js"></script>
 </head>
 HEAD;
 ?>
