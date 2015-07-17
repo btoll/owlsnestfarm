@@ -18,20 +18,19 @@
     }],
 
     "js": [{
-        "src": "/usr/local/www/PeteJS/src",
-        "output": "build/pete.js",
+        "src": [
+            "/usr/local/www/PeteJS/src",
+            "js"
+        ],
+        "output": "build/owlsnestfarm.js",
         "version": "1.0.0",
         "dependencies": [
             "Pete.prototype.js",
             "Pete.js",
+            "Pete.Observer.js",
             "Pete.Element.js",
-            "Pete.Composite.js",
-            "Pete.Observer.js"
+            "Pete.Composite.js"
         ]
-    }, {
-        "src": "js",
-        "output": "build/main.js",
-        "version": "1.0.0"
     }]
 }
 
