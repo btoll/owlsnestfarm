@@ -1,28 +1,30 @@
 Pete.ready(function () {
-    var links = Pete.Element.gets('a'),
+    var links = Pete.gets('a'),
         title, list;
 
     function removeTitle() {
+        var dom = this.dom;
+
         // Neuter the default browser behavior.
-        title = this.title;
-        this.title = '';
+        title = dom.title;
+        dom.title = '';
     }
 
     function resetTitle() {
         // Restore the title.
-        this.title = title;
+        this.dom.title = title;
     }
 
     links.on('mouseover', removeTitle);
     links.on('mouseout', resetTitle);
 
-    list = Pete.Element.get('nav div ul').dom;
+    list = Pete.get('nav div ul').dom;
 
     // HFN (Hack For Now :) )
     // Only the internal pages will have the 'nav div ul' dom structure.
     if (list) {
         var parent = list.parentNode,
-            link = document.getElementsByTagName('a')[1],
+            link = document.getElementsByTagName('a')[0],
             div = document.createElement('div'),
             style = div.style,
             body = document.body,
@@ -68,8 +70,8 @@ Pete.ready(function () {
         body.appendChild(div);
 
         // Measure, re-append, and cleanup.
-        list.style.height = 0;
         listHeight = list.scrollHeight;
+        list.style.height = 0;
         parent.appendChild(list);
         body.removeChild(div);
         div = null;

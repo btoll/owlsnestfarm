@@ -17,11 +17,7 @@ NAV;
 $mobile = <<<NAV
     <nav>
         <div>
-            <div>
-                <a href="https://www.facebook.com/Theowlsnestfarm"><img alt="The Owl's Nest Farm on Facebook" src="/owlsnestfarm/resources/images/facebook_smallest.png"></a>
-                <p>The Owl's Nest Farm</p>
-            </div>
-
+            <p>The Owl's Nest Farm</p>
             <a href="#"><img alt="Owl" src="/owlsnestfarm/resources/images/owl_menu_icon_120x90.png"></a>
         </div>
 

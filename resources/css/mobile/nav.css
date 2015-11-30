@@ -20,18 +20,7 @@ nav {
 
 }
 
-div > div {
-    float: left;
-    margin-top: 15px;
-}
-
-div > div a {
-    display: inline-block;
-    margin-left: 20px;
-    vertical-align: middle;
-}
-
-div > div p {
+div p {
     color: #fff;
     font-size: 2em;
     display: inline-block;
@@ -39,12 +28,12 @@ div > div p {
     vertical-align: middle;
 }
 
-div + a {
+div > a {
     float: right;
     margin: 20px;
 }
 
-div + a img {
+div a img {
     border-radius: 20px;
 }
 

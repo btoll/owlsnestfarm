@@ -1,8 +1,11 @@
 {
+    "clean": [{
+        "run": "rm -rf build"
+    }],
+
     "css": [{
         "src": "resources/css",
         "output": "build/mobile.css",
-        "version": "1.0.0",
         "exclude": [
             "mobile/home.css",
             "desktop"
@@ -10,7 +13,6 @@
     }, {
         "src": "resources/css",
         "output": "build/desktop.css",
-        "version": "1.0.0",
         "exclude": [
             "desktop/home.css",
             "mobile"
@@ -23,7 +25,6 @@
             "js"
         ],
         "output": "build/owlsnestfarm.js",
-        "version": "1.0.0",
         "dependencies": [
             "Pete.prototype.js",
             "Pete.js",

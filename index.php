@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>The Owl's Nest Farm</title>
 <?php
 $device = include 'server/sniff.php';
@@ -8,10 +9,6 @@ $device = ($device === 'mobile') ? 'mobile' : 'desktop';
 
 echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"./resources/css/$device/home.css\" />";
 ?>
-<!--
-<script src="./build/pete.js"></script>
-<script src="./build/main.js"></script>
--->
 <script src="./build/owlsnestfarm.js"></script>
 </head>
 
