@@ -22,7 +22,7 @@ nav {
 
 div p {
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.4em;
     display: inline-block;
     margin-left: 20px;
     vertical-align: middle;
@@ -33,11 +33,9 @@ div > a {
     margin: 20px;
 }
 
-/*
 div a img {
     border-radius: 20px;
 }
-*/
 
 /* The drop-down menu. */
 div + div {

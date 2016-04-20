@@ -16,7 +16,7 @@ if ($device === 'mobile') {
     $HEAD .= '<script src="/build/nav.js"></script>';
 }
 
-$HEAD .= "</head>";
+$HEAD .= '</head>';
 
 echo $HEAD;
 ?>

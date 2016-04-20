@@ -4,12 +4,11 @@ echo <<<NAV
 <nav>
             <div class="nav-container">
                 <ul>
-                    <li><a href="/owlsnestfarm/" title="Home">Home</a></li>
-                    <li><a href="/owlsnestfarm/about/" title="About Us">About Us</a></li>
-                    <li><a href="/owlsnestfarm/history/" title="History">History</a></li>
-                    <li><a href="/owlsnestfarm/animals/" title="Animals">Animals</a></li>
-                    <li><a href="/owlsnestfarm/market/" title="Farmer's Market">Farmer's Market</a></li>
-                    <li><a href="/owlsnestfarm/contact/" title="Contact Us">Contact Us</a></li>
+                    <li><a href="/" title="Home">Home</a></li>
+                    <li><a href="/history/" title="History">History</a></li>
+                    <li><a href="/animals/" title="Animals">Animals</a></li>
+                    <li><a href="/market/" title="Farmer's Market">Farmer's Market</a></li>
+                    <li><a href="/contact/" title="Contact Us">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -24,12 +23,11 @@ echo <<<NAV
 
         <div>
             <ul>
-                <li><a href="/owlsnestfarm/" title="Home">Home</a></li>
-                <li><a href="/owlsnestfarm/about/" title="About Us">About Us</a></li>
-                <li><a href="/owlsnestfarm/history/" title="History">History</a></li>
-                <li><a href="/owlsnestfarm/animals/" title="Animals">Animals</a></li>
-                <li><a href="/owlsnestfarm/market/" title="Farmer's Market">Farmer's Market</a></li>
-                <li><a href="/owlsnestfarm/contact/" title="Contact Us">Contact Us</a></li>
+                <li><a href="/" title="Home">Home</a></li>
+                <li><a href="/history/" title="History">History</a></li>
+                <li><a href="/animals/" title="Animals">Animals</a></li>
+                <li><a href="/market/" title="Farmer's Market">Farmer's Market</a></li>
+                <li><a href="/contact/" title="Contact Us">Contact Us</a></li>
             </ul>
         </div>
     </nav>
