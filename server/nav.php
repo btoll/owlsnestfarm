@@ -1,5 +1,6 @@
 <?php
-$desktop = <<<NAV
+if ($device === 'desktop') {
+echo <<<NAV
 <nav>
             <div class="nav-container">
                 <ul>
@@ -13,12 +14,12 @@ $desktop = <<<NAV
             </div>
         </nav>
 NAV;
-
-$mobile = <<<NAV
+} else {
+echo <<<NAV
     <nav>
         <div>
             <p>The Owl's Nest Farm</p>
-            <a href="#"><img alt="Owl" src="/owlsnestfarm/resources/images/owl_menu_icon_120x90.png"></a>
+            <a href="#"><img alt="Owl" src="/owlsnestfarm/resources/images/owl_menu_icon.png"></a>
         </div>
 
         <div>
@@ -33,11 +34,6 @@ $mobile = <<<NAV
         </div>
     </nav>
 NAV;
-
-if ($device === 'desktop') {
-    echo $desktop;
-} else {
-    echo $mobile;
 }
 ?>
 

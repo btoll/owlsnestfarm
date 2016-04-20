@@ -22,7 +22,7 @@ nav {
 
 div p {
     color: #fff;
-    font-size: 2em;
+    font-size: 1.2em;
     display: inline-block;
     margin-left: 20px;
     vertical-align: middle;
@@ -33,9 +33,11 @@ div > a {
     margin: 20px;
 }
 
+/*
 div a img {
     border-radius: 20px;
 }
+*/
 
 /* The drop-down menu. */
 div + div {
@@ -62,12 +64,12 @@ li:hover {
 
 li a {
     display: block;
-    font-size: 2.8em;
+    font-size: 1em;
     padding: 20px;
 }
 
 /* Highlight the link of the current page. */
-#about nav li a[href*="about"],
+#home nav li a[href="/"],
 #animals nav li a[href*="animals"],
 #contact nav li a[href*="contact"],
 #history nav li a[href*="history"],

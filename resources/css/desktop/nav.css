@@ -41,7 +41,7 @@ nav li a:hover {
 }
 
 /* Highlight the link of the current page. */
-#about nav li a[href*="about"],
+#home nav li a[href="/"],
 #animals nav li a[href*="animals"],
 #contact nav li a[href*="contact"],
 #history nav li a[href*="history"],

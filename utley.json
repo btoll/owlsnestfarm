@@ -21,8 +21,7 @@
 
     "js": [{
         "src": [
-            "/usr/local/www/PeteJS/src",
-            "js"
+            "/usr/local/src/git/PeteJS/src"
         ],
         "output": "build/owlsnestfarm.js",
         "dependencies": [
@@ -32,6 +31,11 @@
             "Pete.Element.js",
             "Pete.Composite.js"
         ]
+    }, {
+        "src": [
+	    "js/nav.js"
+        ],
+        "output": "build/nav.js"
     }]
 }
 
