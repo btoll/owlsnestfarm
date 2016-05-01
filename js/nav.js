@@ -1,13 +1,13 @@
-'use strict';
+/* eslint-disable curly, wrap-iife */
 
-document.addEventListener('DOMContentLoaded', () => {
-    const links = document.querySelectorAll('a');
-    let currentHeight = 0,
-        listHeight,
-        title;
+document.addEventListener('DOMContentLoaded', function () {
+    var links = document.querySelectorAll('a');
+    var currentHeight = 0;
+    var listHeight;
+    var title;
 
     function animate(closing) {
-        let parent = list.parentNode;
+        var parent = list.parentNode;
 
         if (!closing) {
             parent.style.display = 'block';
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 currentHeight += 10;
                 list.style.height = currentHeight + 'px';
 
-                setTimeout(() => {
+                setTimeout(function () {
                     animate(false);
                 }, 5);
             }
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 currentHeight -= 10;
                 list.style.height = currentHeight + 'px';
 
-                setTimeout(() => {
+                setTimeout(function () {
                     animate(true);
                 }, 5);
             } else {
@@ -45,23 +45,23 @@ document.addEventListener('DOMContentLoaded', () => {
         this.title = title;
     }
 
-    for (let i = 0, len = links.length; i < len; i++) {
-        const link = links[i];
+    for (var i = 0, len = links.length; i < len; i++) (function (i) {
+        var link = links[i];
 
         link.addEventListener('mouseover', removeTitle);
         link.addEventListener('mouseout', resetTitle);
-    }
+    })(i);
 
-    const list = document.querySelector('nav div ul');
+    var list = document.querySelector('nav div ul');
 
     // HFN (Hack For Now :) )
     // Only the internal pages will have the 'nav div ul' dom structure.
     if (list) {
-        let parent = list.parentNode,
-            link = document.getElementsByTagName('a')[0],
-            div = document.createElement('div'),
-            style = div.style,
-            body = document.body;
+        var parent = list.parentNode;
+        var link = document.getElementsByTagName('a')[0];
+        var div = document.createElement('div');
+        var style = div.style;
+        var body = document.body;
 
         // Position the new div safely outside of the viewport.
         style.display = 'block';
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
         body.removeChild(div);
         div = null;
 
-        link.addEventListener('click', e => {
+        link.addEventListener('click', function (e) {
             animate(parent.style.display === 'block');
             e.preventDefault();
         });
