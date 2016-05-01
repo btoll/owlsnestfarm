@@ -11,7 +11,9 @@ include "../server/head.php";
         <?php include "../server/aside.php"; ?>
 
         <article>
-            <h3>Coming soon</h3>
+            <h3>Farmers' Market</h3>
+            <p>We have a stand at the <a href="http://huntandgathervintagemarket.com/" title="Hunt and Gather Vintage Market" target="_blank">Hunt and Gather Vintage Market</a> in Princeton, MA. Please stop by and say "hi" starting Sunday, May 22th!</p>
+            <p>In addition to our fresh produce, we can bake custom-order dog treats for any special needs. Don't hesitate to ask!</p>
         </article>
 
         <section>

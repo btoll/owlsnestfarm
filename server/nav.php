@@ -7,7 +7,7 @@ echo <<<NAV
                     <li><a href="/" title="Home">Home</a></li>
                     <li><a href="/history/" title="History">History</a></li>
                     <li><a href="/animals/" title="Animals">Animals</a></li>
-                    <li><a href="/market/" title="Farmer's Market">Farmer's Market</a></li>
+                    <li><a href="/market/" title="Farmers' Market">Farmers' Market</a></li>
                     <li><a href="/contact/" title="Contact Us">Contact Us</a></li>
                 </ul>
             </div>
@@ -26,7 +26,7 @@ echo <<<NAV
                 <li><a href="/" title="Home">Home</a></li>
                 <li><a href="/history/" title="History">History</a></li>
                 <li><a href="/animals/" title="Animals">Animals</a></li>
-                <li><a href="/market/" title="Farmer's Market">Farmer's Market</a></li>
+                <li><a href="/market/" title="Farmers' Market">Farmers' Market</a></li>
                 <li><a href="/contact/" title="Contact Us">Contact Us</a></li>
             </ul>
         </div>

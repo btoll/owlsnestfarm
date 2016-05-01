@@ -12,7 +12,10 @@ include "../server/head.php";
 
         <article>
             <h3>Email:</h3>
-            <p>ginger at theowlsnestfarm.com<br>ben at theowlsnestfarm.com</p>
+            <p>theowlsnestfarm at gmail.com</p>
+
+            <h3>Facebook:</h3>
+            <p><a href="https://www.facebook.com/Theowlsnestfarm" title="The Owl's Nest Farm on Facebook" target="_blank">The Owl's Nest Farm</a></p>
 
             <h3>Mailing address:</h3>
             <p>113 Old Colony Road<br>Princeton, MA 01541 USA</p>
