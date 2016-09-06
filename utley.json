@@ -1,8 +1,4 @@
 {
-    "clean": [{
-        "run": "rm -rf build"
-    }],
-
     "css": [{
         "src": "resources/css",
         "output": "build/mobile.css",
@@ -29,6 +25,10 @@
             "js/disableLinkTitle.js"
         ],
         "output": "build/disableLinkTitle.js"
-    }]
+    }],
+
+    "tasks": {
+        "clean": "rm -rf build"
+    }
 }
 
