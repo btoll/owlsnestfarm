@@ -230,3 +230,7 @@ section figure img {
     border-radius: 16px;
 }
 
+.bold {
+    font-weight: bold;
+}
+

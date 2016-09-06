@@ -17,7 +17,15 @@ include "server/head.php";
             <p>We are both vegetarians, and we support organizations that promote the wellness and well-being of all animal life. Among these are:
                 <ul>
                     <li><a href="http://www.capeannanimalaid.org/" title="Cape Ann Animal Aid" target="_blank">Cape Ann Animal Aid</a></li>
+                    <li><a href="http://www.gdrne.com/" title="Great Dog Rescue New England" target="_blank">Great Dog Rescue New England</a></li>
                     <li><a href="http://www.peta.org/" title="PETA" target="_blank">PETA</a></li>
+                </ul>
+            </p>
+            <p>In addition, we also support local businesses and institutions in the Princeton area such as the following:
+                <ul>
+                    <li><a href="http://huntandgathervintagemarket.com/" title="Hunt &amp; Gather Vintage Market" target="_blank">Hunt &amp; Gather Vintage Market</a></li>
+                    <li><a href="http://www.princetonpubliclibrary.org/" title="Princeton Public Library" target="_blank">Princeton Public Library</a></li>
+                    <li><a href="http://www.thethirstylab.net/" title="The Thirsty Lab" target="_blank">The Thirsty Lab</a></li>
                 </ul>
             </p>
             <p>With kindness and gratitude,<br>Ginger and Ben</p>
