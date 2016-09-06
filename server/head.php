@@ -9,7 +9,7 @@ $HEAD = <<<COMMON
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>The Owl's Nest Farm</title>
     <link rel="stylesheet" type="text/css" href="/build/$device.css" />
-    <script src="/build/owlsnestfarm.js"></script>
+    <script src="/build/disableLinkTitle.js"></script>
 COMMON;
 
 if ($device === 'mobile') {

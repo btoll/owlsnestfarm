@@ -21,9 +21,14 @@
 
     "js": [{
         "src": [
-	    "js/nav.js"
+            "js/nav.js"
         ],
         "output": "build/nav.js"
+    }, {
+        "src": [
+            "js/disableLinkTitle.js"
+        ],
+        "output": "build/disableLinkTitle.js"
     }]
 }
 

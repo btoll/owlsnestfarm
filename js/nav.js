@@ -1,10 +1,6 @@
-/* eslint-disable curly, wrap-iife */
-
 document.addEventListener('DOMContentLoaded', function () {
-    var links = document.querySelectorAll('a');
     var currentHeight = 0;
     var listHeight;
-    var title;
 
     function animate(closing) {
         var parent = list.parentNode;
@@ -34,27 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    function removeTitle() {
-        // Neuter the default browser behavior.
-        title = this.title;
-        this.title = '';
-    }
-
-    function resetTitle() {
-        // Restore the title.
-        this.title = title;
-    }
-
-    for (var i = 0, len = links.length; i < len; i++) (function (i) {
-        var link = links[i];
-
-        link.addEventListener('mouseover', removeTitle);
-        link.addEventListener('mouseout', resetTitle);
-    })(i);
-
     var list = document.querySelector('nav div ul');
 
-    // HFN (Hack For Now :) )
     // Only the internal pages will have the 'nav div ul' dom structure.
     if (list) {
         var parent = list.parentNode;

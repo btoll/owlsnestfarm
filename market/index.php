@@ -17,12 +17,13 @@ include "../server/head.php";
             <p class="bold">Currently in season:
                 <ul>
                     <li>Apples</li>
-                    <li>Raspberries</li>
                     <li>Eggplant</li>
                     <li>Heirloom Tomatoes</li>
                     <li>Hot and Sweet Peppers</li>
                     <li>Pumpkins</li>
+                    <li>Raspberries</li>
                     <li>Spaghetti Squash</li>
+                    <li>Tomatillos</li>
                     <li>Various Herbs</li>
                     <li>Zucchini</li>
                 </ul>
