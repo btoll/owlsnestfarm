@@ -41,6 +41,7 @@ div a img {
 div + div {
     border-top: 1px solid #ccc;
     clear: both;
+    z-index: 9999;
 }
 
 ul {
@@ -62,7 +63,7 @@ nav li:hover {
 nav li a {
     display: block;
     font-size: 1em;
-    padding: 20px;
+    padding: 12px;
 }
 
 /* Highlight the link of the current page. */
