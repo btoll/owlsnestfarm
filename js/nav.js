@@ -32,34 +32,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var list = document.querySelector('nav div ul');
 
-    // Only the internal pages will have the 'nav div ul' dom structure.
     if (list) {
-        var parent = list.parentNode;
-        var link = document.getElementsByTagName('a')[0];
-        var div = document.createElement('div');
-        var style = div.style;
-        var body = document.body;
+        var owlLink = document.getElementsByTagName('a')[0];
 
-        // Position the new div safely outside of the viewport.
-        style.display = 'block';
-        style.position = 'absolute';
-        style.top = '-10000px';
-
-        // Append the element to be measured.
-        div.appendChild(list);
-
-        // The new div must be in the DOM in order for it or any hierarchical elements to be measured.
-        body.appendChild(div);
-
-        // Measure, re-append, and cleanup.
         listHeight = list.scrollHeight;
         list.style.height = 0;
-        parent.appendChild(list);
-        body.removeChild(div);
-        div = null;
 
-        link.addEventListener('click', function (e) {
-            animate(parent.style.display === 'block');
+        owlLink.addEventListener('click', function (e) {
+            animate(list.parentNode.style.display === 'block');
             e.preventDefault();
         });
     }
