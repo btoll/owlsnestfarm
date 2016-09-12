@@ -42,10 +42,10 @@ nav li a:hover {
 
 /* Highlight the link of the current page. */
 #home nav li a[href="/"],
-#animals nav li a[href*="animals"],
-#contact nav li a[href*="contact"],
 #history nav li a[href*="history"],
-#market nav li a[href*="market"] {
+#animals nav li a[href*="animals"],
+#about nav li a[href*="about"],
+#contact nav li a[href*="contact"] {
     background: #265a88;
 }
 

@@ -7,7 +7,7 @@ echo <<<NAV
                     <li><a href="/" title="Home">Home</a></li>
                     <li><a href="/history/" title="History">History</a></li>
                     <li><a href="/animals/" title="Animals">Animals</a></li>
-                    <li><a href="/market/" title="Farmers' Market">Farmers' Market</a></li>
+                    <li><a href="/about/" title="About Us">About Us</a></li>
                     <li><a href="/contact/" title="Contact Us">Contact Us</a></li>
                 </ul>
             </div>
@@ -18,7 +18,7 @@ echo <<<NAV
     <nav>
         <div>
             <p>The Owl's Nest Farm</p>
-            <a href="#"><img alt="Owl" src="/owlsnestfarm/resources/images/owl_menu_icon.png"></a>
+            <a href="#"><img alt="Owl" src="../resources/images/owl_menu_icon.png"></a>
         </div>
 
         <div>
@@ -26,7 +26,7 @@ echo <<<NAV
                 <li><a href="/" title="Home">Home</a></li>
                 <li><a href="/history/" title="History">History</a></li>
                 <li><a href="/animals/" title="Animals">Animals</a></li>
-                <li><a href="/market/" title="Farmers' Market">Farmers' Market</a></li>
+                <li><a href="/about/" title="About Us">About Us</a></li>
                 <li><a href="/contact/" title="Contact Us">Contact Us</a></li>
             </ul>
         </div>
