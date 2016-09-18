@@ -23,8 +23,11 @@ include "../server/head.php";
             </p>
             <p>In addition, we also support local businesses and institutions in the Princeton area such as the following:
                 <ul>
+                    <li><a href="http://www.elziresacre.com/" title="Elzire&rsquo;s Acre" target="_blank">Elzire&rsquo;s Acre</a></li>
+                    <li><a href="https://www.facebook.com/EncoresCloset/" title="Encore&rsquo;s Closet" target="_blank">Encore&rsquo;s Closet</a></li>
                     <li><a href="http://huntandgathervintagemarket.com/" title="Hunt &amp; Gather Vintage Market" target="_blank">Hunt &amp; Gather Vintage Market</a></li>
                     <li><a href="http://www.princetonpubliclibrary.org/" title="Princeton Public Library" target="_blank">Princeton Public Library</a></li>
+                    <li><a href="https://www.facebook.com/simplesweetsbysusan/" title="Simple Sweets by Susan" target="_blank">Simple Sweets by Susan</a></li>
                     <li><a href="http://www.thethirstylab.net/" title="The Thirsty Lab" target="_blank">The Thirsty Lab</a></li>
                 </ul>
             </p>
