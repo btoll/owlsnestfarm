@@ -16,14 +16,10 @@
     }],
 
     "js": [{
-        "src": [
-            "js/nav.js"
-        ],
+        "src": "js/nav.js",
         "output": "build/nav.js"
     }, {
-        "src": [
-            "js/disableLinkTitle.js"
-        ],
+        "src": "js/disableLinkTitle.js",
         "output": "build/disableLinkTitle.js"
     }],
 
