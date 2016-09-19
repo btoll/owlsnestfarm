@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var list = document.querySelector('nav div ul');
 
     if (list) {
-        var owlLink = document.getElementsByTagName('a')[0];
+        var owlLink = document.getElementsByTagName('a')[1];
 
         listHeight = list.scrollHeight;
         list.style.height = 0;
