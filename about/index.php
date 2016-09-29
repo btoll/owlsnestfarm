@@ -27,6 +27,7 @@ include "../server/head.php";
                     <li><a href="https://www.facebook.com/EncoresCloset/" title="Encore&rsquo;s Closet" target="_blank">Encore&rsquo;s Closet</a></li>
                     <li><a href="http://huntandgathervintagemarket.com/" title="Hunt &amp; Gather Vintage Market" target="_blank">Hunt &amp; Gather Vintage Market</a></li>
                     <li><a href="http://www.princetonpubliclibrary.org/" title="Princeton Public Library" target="_blank">Princeton Public Library</a></li>
+                    <li><a href="https://www.facebook.com/Shamrock-Hives-Farm-211386495588210/" title="Shamrock Hives Farm" target="_blank">Shamrock Hives Farm</a></li>
                     <li><a href="https://www.facebook.com/simplesweetsbysusan/" title="Simple Sweets by Susan" target="_blank">Simple Sweets by Susan</a></li>
                     <li><a href="http://www.thethirstylab.net/" title="The Thirsty Lab" target="_blank">The Thirsty Lab</a></li>
                 </ul>
