@@ -24,6 +24,7 @@
     }],
 
     "tasks": {
+        "build": "utley --clean js css",
         "clean": "rm -rf build/*"
     }
 }
