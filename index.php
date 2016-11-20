@@ -12,6 +12,7 @@ include "./server/head.php";
 
         <article>
             <p>In addition to our fresh produce, we can bake custom-order dog treats for any special needs. Don't hesitate to ask!</p>
+            <!--
             <p class="bold">Currently in season:
                 <ul>
                     <li>Apples</li>
@@ -26,6 +27,7 @@ include "./server/head.php";
                     <li>Zucchini</li>
                 </ul>
             </p>
+            -->
             <p class="bold">Always in season:
                 <ul>
                     <li>Eggs</li>
