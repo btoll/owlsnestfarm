@@ -14,7 +14,8 @@ include "./server/head.php";
             <p>January 15th starts our indoor Winter market!</p>
             <P>Join us at the Congregational Church of Princeton on the 1st and 3rd Sundays of each month through May from 11:30am to 2pm.</p>
             <p>More than 10 local vendors will be available each market to satisfy your family's every need!</p>
-            <p>For more information and current news, please visit <a href="https://www.facebook.com/Princetonfarmersmarketgroup">Princeton Farmers' Market Group</a> on Facebook.</p>
+            <p>For more information and current news, please visit <a href="https://www.facebook.com/Princetonfarmersmarketgroup" title="Princeton Farmer's Market Group" target="_blank">Princeton Farmers' Market Group</a> on Facebook.</p>
+            <p>Also, please see <a href="http://www.thelandmark.com/news/2017-01-12/Princeton_News/Winter_Farmers_Market_opens_Sunday.html" title="Princeton Winter Farmer's Market Opens Sunday" target="_blank">the coverage in the Landmark!</a></p>
 
             <p>In addition to our fresh produce, we can bake custom-order dog treats for any special needs. Don't hesitate to ask!</p>
             <!--
