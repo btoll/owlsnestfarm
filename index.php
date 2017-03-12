@@ -38,6 +38,7 @@ include "./server/head.php";
                 <ul>
                     <li>Eggs</li>
                     <li>Homemade Dog Treats</li>
+                    <li>Puppy Pad Balm</li>
                 </ul>
             </p>
         </article>
