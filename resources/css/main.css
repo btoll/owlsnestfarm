@@ -35,17 +35,9 @@
     }
 
     aside {
-        display: -webkit-flex !important;
-        display: -moz-flex !important;
-        display: -ms-flex !important;
-        display: flex !important;
     }
 
     section {
-        display: -webkit-flex !important;
-        display: -moz-flex !important;
-        display: -ms-flex !important;
-        display: flex !important;
     }
 }
 
@@ -63,79 +55,21 @@
 */
 
 html, body, main {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: flex;
-
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-
-    height: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 main {
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    margin: 57px 0 0;
+    margin-top: 80px;
 }
 
 aside {
-    background-color: #eee;
-    /*
-    overflow: auto;
-    */
-    padding: 10px 20px;
-
-    /* Let's flex the child items of this <aside> */
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: flex;
-
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    justify-content: space-between;
-
-    /* This still participates as a flexed item */
-    -webkit-flex: 1;
-    -moz-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+    float: left;
+    width: 250px;
 }
 
 article {
-    -webkit-flex: 2;
-    -moz-flex: 2;
-    -ms-flex: 2;
-    flex: 2;
-    /*
-    overflow: auto;
-    */
-    padding: 20px;
-
-    /*
-    -webkit-columns: 2 300px;
-    -moz-columns: 2 300px;
-    columns: 2 300px;
-
-    -webkit-column-gap: 2em;
-    -moz-column-gap: 2em;
-    column-gap: 2em;
-    */
-
-    -webkit-column-rule: 1px dotted #ddd;
-    -moz-column-rule: 1px dotted #ddd;
-    column-rule: 1px dotted #ddd;
+    margin-left: 270px;
 }
 
 /* Account for different markup. */
@@ -151,36 +85,9 @@ article p:nth-child(1)::first-letter {
 }
 
 section {
-    background: #eee;
-    -webkit-flex: 2;
-    -moz-flex: 2;
-    -ms-flex: 2;
-    flex: 2;
-    overflow: auto;
-    padding: 10px;
-    text-align: center;
-
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: flex;
-
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-
-    justify-content: center;
 }
 
 footer {
-    background: #ddd;
-    /*border: 1px solid #fff;*/
-    /*box-shadow: inset 0 0 2em gray;*/
-    box-sizing: border-box;
-    /*opacity: 0.8;*/
-    padding: 24px;
-    text-align: center;
 }
 
 figure {

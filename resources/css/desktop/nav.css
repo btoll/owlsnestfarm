@@ -44,14 +44,9 @@ nav li a:hover {
 #home nav li a[href="/"],
 #history nav li a[href*="history"],
 #animals nav li a[href*="animals"],
+#dogs nav li a[href*="dogs"],
 #about nav li a[href*="about"],
 #contact nav li a[href*="contact"] {
     background: #265a88;
 }
-
-/*
-nav li a[title="Home"] {
-    color: #000;
-}
-*/
 

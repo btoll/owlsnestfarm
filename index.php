@@ -15,7 +15,7 @@ include "./server/head.php";
             <P>Join us at the Congregational Church of Princeton on the 1st and 3rd Sundays of each month through May from 11:30am to 2pm.</p>
             <p>More than 10 local vendors will be available each market to satisfy your family's every need!</p>
             <p>For more information and current news, please visit <a href="https://www.facebook.com/Princetonfarmersmarketgroup" title="Princeton Farmer's Market Group" target="_blank">Princeton Farmers' Market Group</a> on Facebook.</p>
-            <p>Also, please see <a href="http://www.thelandmark.com/news/2017-01-12/Princeton_News/Winter_Farmers_Market_opens_Sunday.html" title="Princeton Winter Farmer's Market Opens Sunday" target="_blank">the coverage in the Landmark!</a></p>
+            <p>Also, please see <a href="http://www.thelandmark.com/articles/winter-farmers-market-opens-sunday/" title="Princeton Winter Farmer's Market Opens Sunday" target="_blank">the coverage</a> in <a href="http://www.thelandmark.com/articles/farmers-market-group-seeks-permission-to-use-town-common/" title="Princeton Winter Farmer's Market Seeks Permission To Use Town Common" target="_blank">the Landmark</a>!</p>
 
             <p>In addition to our fresh produce, we can bake custom-order dog treats for any special needs. Don't hesitate to ask!</p>
             <!--
@@ -37,8 +37,8 @@ include "./server/head.php";
             <p class="bold">Always in season:
                 <ul>
                     <li>Eggs</li>
-                    <li>Homemade Dog Treats</li>
-                    <li>Puppy Pad Balm</li>
+                    <li><a href="/dogs" title="For Dogs">Homemade Dog Treats</a></li>
+                    <li><a href="/dogs" title="For Dogs">Puppy Pad Balm</a></li>
                 </ul>
             </p>
         </article>
