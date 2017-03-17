@@ -21,11 +21,13 @@ include "../server/head.php";
             <p>113 Old Colony Road<br>Princeton, MA 01541 USA</p>
         </article>
 
+        <!--
         <section>
             <figure>
                 <img src="../resources/images/tolls.jpg">
             </figure>
         </section>
+        -->
     </main>
 
     <?php include "../server/footer.php"; ?>

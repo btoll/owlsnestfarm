@@ -29,11 +29,13 @@ include "../server/head.php";
             <p>This late 18th Century Federal-style house is a side-gabled, two-story dwelling, of three bays in length and a single bay in depth. The street-facing facade of the home features the typical five-over-four window layout with a central entry door and two narrow chimneys, each one located at the center of the two end gables. The windows are in the original six-over-six configuration and the house is sided in horizontal wood clapboarding. There is a bulkhead entry to the basement located in the left gable-end of the house. The house features a rear addition which begins in the mid-rear of the house and continues out past the right gable end. The integration of this one-story lean-to type ell with the two-story Federal dwelling and the fact that it does not extend the entire length of the building gives this end of the house the appearance of a two-bay deep, half-saltbox while the other end of the building looks like a simple two-story building of one-bay in depth. With some minor details that lean to the Greek-revival, such as the heavy, broken pediment cornice molding on the gable ends, this building is as near as can be in style and original layout to that of the structure located at 27 Gates Road.</p>
         </article>
 
+        <!--
         <section>
             <figure>
                 <img src="../resources/images/old_house_sketch_small.jpg">
             </figure>
         </section>
+        -->
     </main>
 
     <?php include "../server/footer.php"; ?>

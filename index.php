@@ -43,11 +43,13 @@ include "./server/head.php";
             </p>
         </article>
 
+        <!--
         <section>
             <figure>
                 <img src="./resources/images/kitchen.jpg">
             </figure>
         </section>
+        -->
     </main>
 
     <?php include "./server/footer.php"; ?>

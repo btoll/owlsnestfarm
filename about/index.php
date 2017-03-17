@@ -34,11 +34,13 @@ include "../server/head.php";
             <p>With kindness and gratitude,<br>Ginger and Ben</p>
         </article>
 
+        <!--
         <section>
             <figure>
                 <img src="../resources/images/three_amigos.jpg">
             </figure>
         </section>
+        -->
     </main>
 
     <?php include "../server/footer.php"; ?>

@@ -24,11 +24,13 @@ include "../server/head.php";
             <p>Now, we wanted to call ourselves a proper farm and knew that just cats and dogs wouldn't cut it, so we now can boast of having the happiest flock of birds in New England! These include Araucanas, Buff Orpingtons, Hampshire Reds and Rhode Island Reds, as well as their good pals Mike and Ike, two male Pekin ducks. They are free range and organically raised!<p>
         </article>
 
+        <!--
         <section>
             <figure>
                 <img src="../resources/images/chickens_in_nesting_box.jpg">
             </figure>
         </section>
+        -->
     </main>
 
     <?php include "../server/footer.php"; ?>
