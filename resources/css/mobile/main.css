@@ -2,8 +2,24 @@ html, body, main {
     display: block;
 }
 
-aside {
+nav li {
+    float: none;
+}
+
+nav li a {
+    padding: 10px;
+}
+
+main {
+    margin-top: 80px;
+}
+
+aside, section {
     display: none;
+}
+
+article {
+    margin: 10px;
 }
 
 article h3 {

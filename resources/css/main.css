@@ -1,22 +1,4 @@
 /*
-@media (min-width: 200px) {
-    nav li {
-        float: none !important;
-    }
-
-    nav li a {
-        padding: 10px !important;
-    }
-
-    main {
-        margin-top: 200px !important;
-    }
-
-    aside, section {
-        display: none !important;
-    }
-}
-
 @media (min-width: 768px) {
     .nav-container {
         width: 750px;
@@ -31,13 +13,15 @@
     }
 
     main {
-        margin-top: 57px !important;
+        margin-top: 80px !important;
     }
 
     aside {
+	display: block !important;
     }
 
-    section {
+    article {
+	margin: 270px !important;
     }
 }
 
@@ -82,6 +66,14 @@ article p:nth-child(1)::first-letter {
 #contact article h3 + p::first-letter {
     font-weight: normal;
     font-size: inherit;
+}
+
+#dogs article div {
+    background-color: #eee;
+    border: 1px solid #000;
+    color: #000;
+    margin: 10px;
+    padding: 10px;
 }
 
 section {

@@ -20,7 +20,7 @@ nav {
 
 }
 
-div p {
+nav div p {
     color: #fff;
     font-size: 1.4em;
     display: inline-block;
@@ -28,19 +28,19 @@ div p {
     vertical-align: middle;
 }
 
-div > a {
+nav div > a {
     float: right;
     margin: 12px 20px;
 }
 
 /* The drop-down menu. */
-div + div {
+nav div + div {
     border-top: 1px solid #ccc;
     clear: both;
     z-index: 9999;
 }
 
-ul {
+nav ul {
     list-style: none;
     margin: 0;
     overflow: hidden;
