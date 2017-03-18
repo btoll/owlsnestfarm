@@ -11,9 +11,10 @@ include "../server/head.php";
         <?php include "../server/aside.php"; ?>
 
         <article>
+            <h1 id="treats">Homemade Dog Treats</h1>
             <p>Choose from three different yummy and healthy treats!</p>
             <p>Each variety is 100% organic and vegan! (shh, don't tell the puppies)</p>
-            <div>
+            <div class="note">
                 <p>Pete's Senior Softies (grain-free)
                     <ul>
                         <li>Carrots (high in Vitamins A, K, C &amp; B6)</li>
@@ -24,7 +25,7 @@ include "../server/head.php";
                     </ul>
                 </p>
             </div>
-            <div>
+            <div class="note">
                 <p>Sweet Molly Chews
                     <ul>
                         <li>Sweet Potatoes (antioxidants &amp; Vitamins A, C &amp; B6)</li>
@@ -33,7 +34,7 @@ include "../server/head.php";
                     </ul>
                 </p>
             </div>
-            <div>
+            <div class="note">
                 <p>Utley's Oaties
                     <ul>
                         <li>Sweet Potatoes (antioxidants &amp; Vitamins A, C &amp; B6)</li>
@@ -45,6 +46,9 @@ include "../server/head.php";
                     </ul>
                 </p>
             </div>
+
+            <h1 id="balm">Puppy Pad Balm</h1>
+            <p>Our newest product is Puppy Pad Balm!  More information coming soon!</p>
         </article>
 
         <!--

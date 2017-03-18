@@ -38,7 +38,7 @@ include "./server/head.php";
                 <ul>
                     <li>Eggs</li>
                     <li><a href="/dogs" title="For Dogs">Homemade Dog Treats</a></li>
-                    <li><a href="/dogs" title="For Dogs">Puppy Pad Balm</a></li>
+                    <li><a href="/dogs#balm" title="For Dogs">Puppy Pad Balm</a></li>
                 </ul>
             </p>
         </article>
