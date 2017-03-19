@@ -2,8 +2,7 @@
 $menu = <<<MENU
     <ul>
         <li><a href="/" title="Home">Home</a></li>
-        <li><a href="/history/" title="History">History</a></li>
-        <li><a href="/animals/" title="Animals">Animals</a></li>
+        <li><a href="/history/" title="History">The Farm</a></li>
         <li><a href="/dogs/" title="For Dogs">For Dogs</a></li>
         <li><a href="/about/" title="About Us">About Us</a></li>
         <li><a href="/contact/" title="Contact Us">Contact Us</a></li>

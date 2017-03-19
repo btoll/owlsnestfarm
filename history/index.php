@@ -11,6 +11,7 @@ include "../server/head.php";
         <?php include "../server/aside.php"; ?>
 
         <article>
+            <p class="note">The following account was found in the archives of the <a href="http://town.princeton.ma.us/Pages/PrincetonMA_Library/index" title="Library at Princeton, MA" target="_blank">library at Princeton, MA</a>, and reproduced here in its entirety.</p>
             <h3>Historical Narrative</h3>
             <p>The history of David Rice was written by Peter Viles who has done extensive research on the Rice family.</p>
             <p>David Rice was born in 1757 in Rutland, Massachusetts, the son of David and Love (Moore) Rice and died in Princeton, Massachusetts in 1825, aged 68 years, 6 months, 14 days. He was a sixth generation descendant of <a href="https://en.wikipedia.org/wiki/Edmund_Rice_%281638%29" title="Edmund Rice" target="_blank">Edmund Rice</a>, one of the early settlers of Sudbury and Marlborough, Massachusetts.</p>
