@@ -48,7 +48,23 @@ include "../server/head.php";
             </div>
 
             <h1 id="balm">Puppy Pad Balm</h1>
-            <p>Our newest product is Puppy Pad Balm!  More information coming soon!</p>
+            <p>Our newest product is Puppy Pad Balm!</p>
+            <div class="note">
+                <p>All organic and unrefined.</p>
+                <ul>
+                    <li>Beeswax</li>
+                    <li>Shea Butter</li>
+                    <li>Olive Oil</li>
+                    <li>Coconut Oil</li>
+                    <li>One of the following Young Living Essential Oils:
+                        <ul>
+                            <li>Lavender</li>
+                            <li>Peppermint</li>
+                            <li>Thieves</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </article>
 
         <!--
