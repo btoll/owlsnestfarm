@@ -76,20 +76,10 @@ article .note {
     padding: 10px;
 }
 
-section {
-}
-
-footer {
-}
-
-figure {
+aside figure {
     margin: 0;
     padding: 0;
-}
-
-section figure img {
-    border: 4px solid #606c88;
-    border-radius: 16px;
+    position: fixed;
 }
 
 .bold {
