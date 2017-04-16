@@ -2,7 +2,7 @@
 include "../server/head.php";
 ?>
 
-<body id="history">
+<body id="farm">
     <header>
         <?php include "../server/nav.php"; ?>
     </header>
