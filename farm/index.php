@@ -11,6 +11,17 @@ include "../server/head.php";
         <?php include "../server/aside.php"; ?>
 
         <article>
+            <p>Chickens
+                <ul>
+                    <li>Areucanas</li>
+                    <li>Buff Orpingtons</li>
+                    <li>Hampshire Reds</li>
+                    <li>Rhode Island Reds</li>
+                </ul>
+            </p>
+        </article>
+
+        <article>
             <p class="note">The following account was found in the archives of the <a href="http://town.princeton.ma.us/Pages/PrincetonMA_Library/index" title="Library at Princeton, MA" target="_blank">library at Princeton, MA</a>, and reproduced here in its entirety.</p>
             <h3>Historical Narrative</h3>
             <p>The history of David Rice was written by Peter Viles who has done extensive research on the Rice family.</p>
