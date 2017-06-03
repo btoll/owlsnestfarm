@@ -1,14 +1,33 @@
-<?php
-include "./server/head.php";
-?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>The Owl's Nest Farm</title>
+<link rel="stylesheet" type="text/css" href="/build/desktop.css" />
+<script src="/build/disableLinkTitle.js"></script>
+</head>
 
 <body id="home">
     <header>
-        <?php include "./server/nav.php"; ?>
+        <nav>
+            <div class="nav-container">
+                <ul>
+                    <li><a href="/" title="Home">Home</a></li>
+                    <li><a href="/farm/" title="The Farm">The Farm</a></li>
+                    <li><a href="/dogs/" title="For Dogs">For Dogs</a></li>
+                    <li><a href="/about/" title="About Us">About Us</a></li>
+                    <li><a href="/contact/" title="Contact Us">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <?php include "./server/aside.php"; ?>
+        <aside>
+            <figure>
+                <img src="../resources/images/owl_house_plaque_small.png">
+            </figure>
+        </aside>
 
         <article>
             <p>January 15th starts the <a href="https://www.facebook.com/Princetonfarmersmarketgroup" title="Princeton Farmer's Market Group" target="_blank">Princeton Farmers' Market Group's</a> indoor Winter market!</p>
@@ -21,8 +40,8 @@ include "./server/head.php";
             <p class="bold">Always available:
                 <ul>
                     <li>Eggs</li>
-                    <li><a href="/dogs" title="For Dogs">Homemade Dog Treats</a></li>
-                    <li><a href="/dogs#balm" title="For Dogs">Puppy Pad Balm</a></li>
+                    <li><a href="/dogs/index.html#treats" title="For Dogs">Homemade Dog Treats</a></li>
+                    <li><a href="/dogs/index.html#balm" title="For Dogs">Puppy Pad Balm</a></li>
                 </ul>
             </p>
             <p class="bold">Seasonal:
@@ -40,17 +59,7 @@ include "./server/head.php";
                 </ul>
             </p>
         </article>
-
-        <!--
-        <section>
-            <figure>
-                <img src="./resources/images/kitchen.jpg">
-            </figure>
-        </section>
-        -->
     </main>
-
-    <?php include "./server/footer.php"; ?>
 </body>
 </html>
 

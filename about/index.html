@@ -1,14 +1,33 @@
-<?php
-include "../server/head.php";
-?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>The Owl's Nest Farm</title>
+<link rel="stylesheet" type="text/css" href="/build/desktop.css" />
+<script src="/build/disableLinkTitle.js"></script>
+</head>
 
 <body id="about">
     <header>
-        <?php include "../server/nav.php"; ?>
+        <nav>
+            <div class="nav-container">
+                <ul>
+                    <li><a href="/" title="Home">Home</a></li>
+                    <li><a href="/farm/" title="The Farm">The Farm</a></li>
+                    <li><a href="/dogs/" title="For Dogs">For Dogs</a></li>
+                    <li><a href="/about/" title="About Us">About Us</a></li>
+                    <li><a href="/contact/" title="Contact Us">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <?php include "../server/aside.php"; ?>
+        <aside>
+            <figure>
+                <img src="../resources/images/owl_house_plaque_small.png">
+            </figure>
+        </aside>
 
         <article>
             <!--
@@ -37,17 +56,7 @@ include "../server/head.php";
             </p>
             <p>With kindness and gratitude,<br>Ginger and Ben</p>
         </article>
-
-        <!--
-        <section>
-            <figure>
-                <img src="../resources/images/three_amigos.jpg">
-            </figure>
-        </section>
-        -->
     </main>
-
-    <?php include "../server/footer.php"; ?>
 </body>
 </html>
 
