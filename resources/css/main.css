@@ -1,42 +1,18 @@
-/*
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .nav-container {
-        width: 750px;
+        margin: 0 !important;
     }
-
-    nav li {
-        float: left !important;
-    }
-
     nav li a {
-        padding: 20px 10px !important;
+        padding: 20px 7px !important;
     }
-
-    main {
-        margin-top: 80px !important;
-    }
-
     aside {
-	display: block !important;
+	display: none;
+	width: 0 !important;
     }
-
     article {
-	margin: 270px !important;
+        margin: 20px !important;
     }
 }
-
-@media (min-width: 992px) {
-    .nav-container {
-        width: 970px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .nav-container {
-        width: 1170px;
-    }
-}
-*/
 
 html, body, main {
     margin: 0;
@@ -84,5 +60,57 @@ aside figure {
 
 .bold {
     font-weight: bold;
+}
+
+nav {
+    background: #337ab7;
+    border: 1px solid #eee;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-container {
+    margin: 0;
+    margin-left: 10%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    background: #337ab7;
+    color: #fff;
+    display: block;
+    font-size: 1em;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background: #265a88;
+}
+
+/* Highlight the link of the current page. */
+#home nav li a[href="/"],
+#farm nav li a[href*="farm"],
+#animals nav li a[href*="animals"],
+#dogs nav li a[href*="dogs"],
+#about nav li a[href*="about"],
+#contact nav li a[href*="contact"] {
+    background: #265a88;
 }
 

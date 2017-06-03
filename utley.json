@@ -1,26 +1,12 @@
 {
     "css": [{
         "src": "resources/css",
-        "output": "build/mobile.css",
-        "exclude": [
-            "mobile/home.css",
-            "desktop"
-        ]
-    }, {
-        "src": "resources/css",
-        "output": "build/desktop.css",
-        "exclude": [
-            "desktop/home.css",
-            "mobile"
-        ]
+        "output": "build/main.css"
     }],
 
     "js": [{
-        "src": "js/nav.js",
-        "output": "build/nav.js"
-    }, {
-        "src": "js/disableLinkTitle.js",
-        "output": "build/disableLinkTitle.js"
+        "src": "js",
+        "output": "build/main.js"
     }],
 
     "tasks": {
