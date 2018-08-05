@@ -26,7 +26,6 @@
     border-radius: 10px;
     font-weight: bold;
     margin: 10px;
-    /*padding: 15px 10px;*/
     position: absolute;
     text-align: center;
     width: 100px;
@@ -83,7 +82,8 @@ const getEastVendors = () => {
 
     //const spaced = DIAMETER / (half + 1);
 
-    eastVendors = vendors.slice(0, half);
+    // We want more vendors on the east side for an odd number of vendors.
+    eastVendors = vendors.slice(0, half + 1);
     const middleEastVendor = eastVendors.length >> 1;
 
     // Note that each vendors list needs to know its middle!
@@ -116,7 +116,8 @@ const getEastVendors = () => {
 };
 
 const getWestVendors = () => {
-    westVendors = vendors.slice(half);
+    // We want less vendors on the west side for an odd number of vendors.
+    westVendors = vendors.slice(half + 1);
     const middleWestVendor = westVendors.length >> 1;
 
     // Move initial `x` coord further to the left to account for the Gazebo.
