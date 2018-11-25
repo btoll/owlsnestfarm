@@ -129,8 +129,7 @@ const setupForm = () => {
             document.getElementById('activeVendors').innerHTML = '';
             createMarket();
 
-            //window.location = `${location.origin}/market-day/vendors.html?v=${encodeURIComponent(newVendorOrder)}`;
-            window.location = `file:///home/btoll/projects/owlsnestfarm/market-day/vendors.html?v=${encodeURIComponent(newVendorOrder)}`;
+            window.location = `${location.origin}/market-day/vendors.html?v=${encodeURIComponent(newVendorOrder)}`;
         } catch (e) {
             alert('Malformed vendor input string!');
         }
