@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: onf-rs
+  labels:
+    app: onf
+    version: "1"
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: onf
+  template:
+    metadata:
+      labels:
+        app: onf
+        version: "1"
+    spec:
+      containers:
+        - name: theowlsnestfarm-com
+          image: "btoll/theowlsnestfarm.com:latest"
